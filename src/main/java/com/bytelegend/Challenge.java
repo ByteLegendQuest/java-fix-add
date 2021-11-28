@@ -1,8 +1,8 @@
 package com.bytelegend;
 
-public class Challenge {
+public class Chall enge {
     public static int add(int a, int b) {
-        return a - b;
+        return a / b;
     }
 
     public static void main(String[] args) {
