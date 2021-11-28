@@ -1,6 +1,6 @@
 package com.bytelegend;
 
-public class Chall enge {
+public class Challenge {
     public static int add(int a, int b) {
         return a + b;
     }
