@@ -1,11 +1,11 @@
 package com.bytelegend;
 
-public class Challenge {
-    public static int add(int a, int b) {
-        return a - b;
-    }
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.util.Base64;
 
-    public static void main(String[] args) {
-        System.out.println("1+1=" + add(1, 1));
+public class Main {
+    public static void main(String[] args) throws IOException {
+        System.out.println(Base64.getEncoder().encodeToString("Hello, ByteLegend!".getBytes(StandardCharsets.UTF_8)));
     }
 }
